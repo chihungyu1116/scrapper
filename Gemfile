@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc1'
-gem 'jquery-rails', '2.0.2'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
@@ -15,6 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
+gem "rest-client", "~> 1.6.7"
 
 gem 'nokogiri'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -33,6 +34,13 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+group :development do
+	gem 'better_errors'
+end
+
+gem 'geocoder'
+#gem 'geokit-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  href: MyString
+  visited: false
+
+two:
+  href: MyString
+  visited: false

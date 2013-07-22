@@ -1,7 +1,7 @@
 Scrapper::Application.routes.draw do
   root to: 'admin#home'
-  
-  get "admin/home"
+
+  get '/admin/update' => 'admin#update'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

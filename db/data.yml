@@ -1,0 +1,14 @@
+
+---
+links:
+  columns:
+  - id
+  - href
+  - visited
+  - created_at
+  - updated_at
+  - failed
+  - domain
+  - crawled
+  - merchant_id
+  records: 
